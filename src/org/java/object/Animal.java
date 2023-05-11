@@ -6,6 +6,7 @@ public abstract class Animal {
 	}
 	public abstract void verso();
 	public abstract void mangia();
+	public abstract void typology();
 	
 	
 }

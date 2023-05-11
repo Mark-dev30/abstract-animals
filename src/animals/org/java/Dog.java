@@ -4,7 +4,7 @@ import org.java.object.Animal;
 
 import manager.org.java.Nuotare;
 
-public class Dog extends Animal implements Nuotare {
+public class Dog extends Animal /*implements Nuotare*/ {
 
 	@Override
 	public void verso() {
@@ -17,10 +17,17 @@ public class Dog extends Animal implements Nuotare {
 		System.out.println("Carne");
 		
 	}
+// 	-----OPTIONAL-----
+	
+//	@Override
+//	public void swim() {
+//		System.out.println("Sto nuotando");
+//		
+//	}
 
 	@Override
-	public void swim() {
-		System.out.println("Sto nuotando");
+	public void typology() {
+		System.out.println("(Dog)");
 		
 	}
 }

@@ -23,5 +23,11 @@ public class Sparrow extends Animal implements Volare{
 		System.out.println("Sto volando");
 		
 	}
+
+	@Override
+	public void typology() {
+		System.out.println("(Sparrow)");
+		
+	}
 	
 }

@@ -22,4 +22,10 @@ public class Eagle extends Animal implements Volare{
 		
 	}
 
+	@Override
+	public void typology() {
+		System.out.println("(Eagle) ");
+		
+	}
+
 }

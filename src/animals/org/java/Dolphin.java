@@ -22,6 +22,12 @@ public class Dolphin extends Animal implements Nuotare {
 		System.out.println("Sto nuotando");
 		
 	}
+
+	@Override
+	public void typology() {
+		System.out.println("(Dolphin)");
+		
+	}
 	
 
 }
